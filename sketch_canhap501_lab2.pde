@@ -342,35 +342,35 @@ class SimulationThread implements Runnable{
       if(!b1Showing && targetsHit == box1Timer){
         b1Showing = true;
         timeOutDelay = 4000;
-        // world.add(box1);
+        world.add(box1);
       }
 
       if(!b2Showing && targetsHit == box2Timer){
         b2Showing = true;
         timeOutDelay = 3000;
-        // world.add(box2);
+        world.add(box2);
       }
 
       if(!b3Showing && targetsHit == box3Timer){
         b3Showing = true;
         timeOutDelay = 2000;
-        // world.add(box3);
+        world.add(box3);
       }
 
       if(!b4Showing && targetsHit == box4Timer){
         b4Showing = true;
         timeOutDelay = 1000;
-        // world.add(box4);
+        world.add(box4);
       }
 
       if(!v1Showing && targetsHit == 10){
         v1Showing = true;
-        // world.add(vicsousArea1);
+        world.add(vicsousArea1);
       }
 
       if(!v2Showing && targetsHit == 20){
         v2Showing = true;
-        // world.add(vicsousArea2);
+        world.add(vicsousArea2);
       }
     }
 
